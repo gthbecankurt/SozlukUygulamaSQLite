@@ -14,6 +14,17 @@
 		79325EF922F03B0500B21CCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79325EF722F03B0500B21CCA /* LaunchScreen.storyboard */; };
 		79325F0422F03B0500B21CCA /* SozlukUygulamasiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79325F0322F03B0500B21CCA /* SozlukUygulamasiTests.swift */; };
 		79325F0F22F03B0500B21CCA /* SozlukUygulamasiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79325F0E22F03B0500B21CCA /* SozlukUygulamasiUITests.swift */; };
+		79325F1D22F03BE400B21CCA /* KelimeHucreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79325F1C22F03BE400B21CCA /* KelimeHucreTableViewCell.swift */; };
+		79325F1F22F03CB600B21CCA /* KelimeDetayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79325F1E22F03CB600B21CCA /* KelimeDetayViewController.swift */; };
+		79325F2122F03D6F00B21CCA /* Kelimeler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79325F2022F03D6F00B21CCA /* Kelimeler.swift */; };
+		BA366DF029787D3900CE3AEA /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BA366DEF29787D2F00CE3AEA /* libsqlite3.tbd */; };
+		BA366DFD29787D5300CE3AEA /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BA366DF329787D5200CE3AEA /* FMDatabaseAdditions.m */; };
+		BA366DFE29787D5300CE3AEA /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = BA366DF429787D5200CE3AEA /* FMDatabasePool.m */; };
+		BA366DFF29787D5300CE3AEA /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = BA366DF629787D5200CE3AEA /* FMDatabaseQueue.m */; };
+		BA366E0029787D5300CE3AEA /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = BA366DF829787D5300CE3AEA /* FMDatabase.m */; };
+		BA366E0129787D5300CE3AEA /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = BA366DFC29787D5300CE3AEA /* FMResultSet.m */; };
+		BA366E052978800200CE3AEA /* Kelimelerdao.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA366E042978800200CE3AEA /* Kelimelerdao.swift */; };
+		BA366E4329788ED000CE3AEA /* sozluk.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = BA366E4229788ED000CE3AEA /* sozluk.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,24 @@
 		79325F0A22F03B0500B21CCA /* SozlukUygulamasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SozlukUygulamasiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79325F0E22F03B0500B21CCA /* SozlukUygulamasiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SozlukUygulamasiUITests.swift; sourceTree = "<group>"; };
 		79325F1022F03B0500B21CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79325F1C22F03BE400B21CCA /* KelimeHucreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelimeHucreTableViewCell.swift; sourceTree = "<group>"; };
+		79325F1E22F03CB600B21CCA /* KelimeDetayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelimeDetayViewController.swift; sourceTree = "<group>"; };
+		79325F2022F03D6F00B21CCA /* Kelimeler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kelimeler.swift; sourceTree = "<group>"; };
+		BA366DEF29787D2F00CE3AEA /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		BA366DF129787D5100CE3AEA /* SozlukUygulamasi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SozlukUygulamasi-Bridging-Header.h"; sourceTree = "<group>"; };
+		BA366DF229787D5200CE3AEA /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		BA366DF329787D5200CE3AEA /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		BA366DF429787D5200CE3AEA /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		BA366DF529787D5200CE3AEA /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		BA366DF629787D5200CE3AEA /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		BA366DF729787D5200CE3AEA /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		BA366DF829787D5300CE3AEA /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		BA366DF929787D5300CE3AEA /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		BA366DFA29787D5300CE3AEA /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		BA366DFB29787D5300CE3AEA /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		BA366DFC29787D5300CE3AEA /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		BA366E042978800200CE3AEA /* Kelimelerdao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kelimelerdao.swift; sourceTree = "<group>"; };
+		BA366E4229788ED000CE3AEA /* sozluk.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = sozluk.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA366DF029787D3900CE3AEA /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +111,7 @@
 				79325F0222F03B0500B21CCA /* SozlukUygulamasiTests */,
 				79325F0D22F03B0500B21CCA /* SozlukUygulamasiUITests */,
 				79325EEC22F03B0300B21CCA /* Products */,
+				BA366DEE29787D2F00CE3AEA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +129,28 @@
 			isa = PBXGroup;
 			children = (
 				79325EEE22F03B0300B21CCA /* AppDelegate.swift */,
+				BA366E4229788ED000CE3AEA /* sozluk.sqlite */,
 				79325EF022F03B0300B21CCA /* ViewController.swift */,
+				BA366E042978800200CE3AEA /* Kelimelerdao.swift */,
 				79325EF222F03B0300B21CCA /* Main.storyboard */,
 				79325EF522F03B0500B21CCA /* Assets.xcassets */,
 				79325EF722F03B0500B21CCA /* LaunchScreen.storyboard */,
 				79325EFA22F03B0500B21CCA /* Info.plist */,
+				79325F1C22F03BE400B21CCA /* KelimeHucreTableViewCell.swift */,
+				79325F1E22F03CB600B21CCA /* KelimeDetayViewController.swift */,
+				79325F2022F03D6F00B21CCA /* Kelimeler.swift */,
+				BA366DF529787D5200CE3AEA /* FMDatabase.h */,
+				BA366DF829787D5300CE3AEA /* FMDatabase.m */,
+				BA366DF729787D5200CE3AEA /* FMDatabaseAdditions.h */,
+				BA366DF329787D5200CE3AEA /* FMDatabaseAdditions.m */,
+				BA366DF929787D5300CE3AEA /* FMDatabasePool.h */,
+				BA366DF429787D5200CE3AEA /* FMDatabasePool.m */,
+				BA366DF229787D5200CE3AEA /* FMDatabaseQueue.h */,
+				BA366DF629787D5200CE3AEA /* FMDatabaseQueue.m */,
+				BA366DFA29787D5300CE3AEA /* FMDB.h */,
+				BA366DFB29787D5300CE3AEA /* FMResultSet.h */,
+				BA366DFC29787D5300CE3AEA /* FMResultSet.m */,
+				BA366DF129787D5100CE3AEA /* SozlukUygulamasi-Bridging-Header.h */,
 			);
 			path = SozlukUygulamasi;
 			sourceTree = "<group>";
@@ -123,6 +171,14 @@
 				79325F1022F03B0500B21CCA /* Info.plist */,
 			);
 			path = SozlukUygulamasiUITests;
+			sourceTree = "<group>";
+		};
+		BA366DEE29787D2F00CE3AEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA366DEF29787D2F00CE3AEA /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +249,7 @@
 				TargetAttributes = {
 					79325EEA22F03B0300B21CCA = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1420;
 					};
 					79325EFE22F03B0500B21CCA = {
 						CreatedOnToolsVersion = 10.3;
@@ -230,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79325EF922F03B0500B21CCA /* LaunchScreen.storyboard in Resources */,
+				BA366E4329788ED000CE3AEA /* sozluk.sqlite in Resources */,
 				79325EF622F03B0500B21CCA /* Assets.xcassets in Resources */,
 				79325EF422F03B0300B21CCA /* Main.storyboard in Resources */,
 			);
@@ -256,8 +314,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79325F2122F03D6F00B21CCA /* Kelimeler.swift in Sources */,
+				BA366DFF29787D5300CE3AEA /* FMDatabaseQueue.m in Sources */,
+				BA366E052978800200CE3AEA /* Kelimelerdao.swift in Sources */,
 				79325EF122F03B0300B21CCA /* ViewController.swift in Sources */,
+				BA366E0029787D5300CE3AEA /* FMDatabase.m in Sources */,
+				BA366E0129787D5300CE3AEA /* FMResultSet.m in Sources */,
+				79325F1D22F03BE400B21CCA /* KelimeHucreTableViewCell.swift in Sources */,
 				79325EEF22F03B0300B21CCA /* AppDelegate.swift in Sources */,
+				BA366DFE29787D5300CE3AEA /* FMDatabasePool.m in Sources */,
+				79325F1F22F03CB600B21CCA /* KelimeDetayViewController.swift in Sources */,
+				BA366DFD29787D5300CE3AEA /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +499,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SozlukUygulamasi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -440,6 +508,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = info.SozlukUygulamasi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SozlukUygulamasi/SozlukUygulamasi-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,6 +519,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SozlukUygulamasi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -457,6 +528,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = info.SozlukUygulamasi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SozlukUygulamasi/SozlukUygulamasi-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
